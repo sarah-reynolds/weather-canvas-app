@@ -1,0 +1,20 @@
+body{
+	background-color: #ccc;
+}
+
+#form-wrapper{
+	background-color: white;
+	height: 500px;
+	padding-top: 50px;
+	margin: auto;
+	text-align: center;
+}
+
+.row{
+	width: 60%;
+	margin:  100px auto;
+}
+
+canvas{
+	padding-top: 20px;
+}
