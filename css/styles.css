@@ -1,7 +1,7 @@
 body{
 	background-color: #C9CCCD;
 	color:  #213A55;
-	background: url('../bg1.jpg');
+	background: url('../bg3.png');
 	background-size: cover;
 	position: center;
 	display: flex;
@@ -27,7 +27,7 @@ body{
 canvas{
 	padding: 20px 0;
 	height: 190px;
-	background-image: url('../cloud.png');
+	background-image: url('../sun.png');
 	background-repeat: no-repeat;
 	background-position: center top;
 }
