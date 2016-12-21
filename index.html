@@ -4,6 +4,7 @@
 	<title>Weather Widget Using Canvas</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src=js/config.js></script>
 	<script type="text/javascript" src=js/scripts.js></script>
@@ -12,19 +13,30 @@
 	
 <div class="container">	
 	<div class="row">
-	<div id="form-wrapper">
-		<form id="weather-form">
-			<label>Please enter location to search</label>
-			<input type="text" id="location" placeholder="location">
-		</form>
+		<div id="form-wrapper">
+			<h1>Weather Checker</h1>
+			<form id="weather-form">
+				<label>Search by location: </label>
+				<input type="text" id="location" placeholder="city or zip">
+			</form>
 
-		<div id="currTemp">
-			
+			<div id="currTemp"></div>
+
+			<canvas id="weather-canvas"></canvas>
+			<div>
+				<div class="column-header col-xs-3 col-xs-offset-1">Condition</div>
+				<div class="column-header col-xs-3 col-xs-offset-1">Wind</div>
+				<div class="column-header col-xs-3 col-xs-offset-1">Humidity</div>
+			</div>
+			<div>
+				<div id="condition" class="col-xs-3 col-xs-offset-1"> </div>
+				<div id="wind" class="col-xs-3 col-xs-offset-1"> </div>
+				<div id="humidity" class="col-xs-3 col-xs-offset-1"> </div>
+			</div>
+
 		</div>
+	</div>
 
-		<canvas id="weather-canvas"></canvas>
-	</div>
-	</div>
 </div>
 
 </body>

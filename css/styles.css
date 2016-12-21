@@ -1,20 +1,59 @@
 body{
-	background-color: #ccc;
+	background-color: #C9CCCD;
+	color:  #213A55;
+	background: url('../bg1.jpg');
+	background-size: cover;
+	position: center;
+	display: flex;
+	min-height: 100vh;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.8em;
 }
 
 #form-wrapper{
-	background-color: white;
+	background-color: rgba(255,255,255,0.6);
 	height: 500px;
-	padding-top: 50px;
+	padding-top: 10px;
 	margin: auto;
 	text-align: center;
+	border-radius: 15px;
 }
 
 .row{
-	width: 60%;
+	width: 80%;
 	margin:  100px auto;
 }
 
 canvas{
-	padding-top: 20px;
+	padding: 20px 0;
+	height: 190px;
+	background-image: url('../cloud.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.hide-bg{
+	background-image: none;
+}
+
+#condition, #wind, #humidity{
+/* 	background-color: black;
+ */	height: 100px;
+	width: 200px;
+	text-align: center;
+}
+
+#currTemp{
+	height: 50px;
+}
+
+.column-header {
+	width: 200px;
+	border-bottom: 1px solid #213A55;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 50px;
 }
