@@ -3,7 +3,7 @@ body{
 	color:  #213A55;
 	background: url('../bg3.png');
 	background-size: cover;
-	position: center;
+	/* position: center; */
 	display: flex;
 	min-height: 100vh;
 	font-family: 'Alegreya Sans', sans-serif;
