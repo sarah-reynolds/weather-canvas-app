@@ -17,6 +17,7 @@ body{
 	margin: auto;
 	text-align: center;
 	border-radius: 15px;
+	min-width: 400px;
 }
 
 .row{
@@ -39,8 +40,8 @@ canvas{
 #condition, #wind, #humidity{
 /* 	background-color: black;
  */	height: 100px;
-	width: 200px;
-	text-align: center;
+/* 	width: 200px;
+ */	text-align: center;
 }
 
 #currTemp{
@@ -48,8 +49,8 @@ canvas{
 }
 
 .column-header {
-	width: 200px;
-	border-bottom: 1px solid #213A55;
+/* 	width: 200px;
+ */	border-bottom: 1px solid #213A55;
 	text-align: center;
 
 }
